@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Renewal Risk Access</label>
+    <hasActivationRequired>false</hasActivationRequired>
     <description>US-0000031: read and edit Account Renewal Risk.</description>
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Renewal_Risk__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <hasActivationRequired>false</hasActivationRequired>
-    <label>Renewal Risk Access</label>
 </PermissionSet>

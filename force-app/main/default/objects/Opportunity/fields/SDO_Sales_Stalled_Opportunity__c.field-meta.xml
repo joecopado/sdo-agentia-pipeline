@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SDO_Sales_Stalled_Opportunity__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>What: Checkbox for stuck oppty. Used in reporting</description>
+    <label>Stalled Opportunity</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

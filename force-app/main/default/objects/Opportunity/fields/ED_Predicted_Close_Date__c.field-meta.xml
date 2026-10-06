@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ED_Predicted_Close_Date__c</fullName>
+    <description>What: This is for Einstein Discovery. This is from the SDO. DO NOT REMOVE.</description>
+    <formula>DateTimeCreated__c + ED_Outcome__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This is calculated by adding the number of days in the &quot;ED Predicted Time to Close&quot; field to the CREATED DATE.</inlineHelpText>
+    <label>ED Predicted Close Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

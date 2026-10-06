@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Products__c</fullName>
+    <label>Product</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GC1000 series</fullName>
+                <default>false</default>
+                <label>GC1000 series</label>
+            </value>
+            <value>
+                <fullName>GC5000 series</fullName>
+                <default>false</default>
+                <label>GC5000 series</label>
+            </value>
+            <value>
+                <fullName>GC10001</fullName>
+                <default>false</default>
+                <label>GC10001</label>
+            </value>
+            <value>
+                <fullName>GC20002</fullName>
+                <default>false</default>
+                <label>GC20002</label>
+            </value>
+            <value>
+                <fullName>GC50000</fullName>
+                <default>false</default>
+                <label>GC50000</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

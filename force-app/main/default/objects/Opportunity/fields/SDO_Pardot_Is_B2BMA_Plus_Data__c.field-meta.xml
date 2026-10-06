@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SDO_Pardot_Is_B2BMA_Plus_Data__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>What: This data was added to support the B2BMA Plus (Pardot) Demo. This is here so we know what came from that import incase we want to remove the data. Who: Jesse Chase. When: 07/14/2021</description>
+    <label>Is B2BMA Plus Data</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

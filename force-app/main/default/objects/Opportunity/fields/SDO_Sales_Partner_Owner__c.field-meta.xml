@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SDO_Sales_Partner_Owner__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>What: Used for the &quot;Partner Opportunities&quot; related list on Partner Account records.</description>
+    <label>Partner Owner</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Partner Opportunities</relationshipLabel>
+    <relationshipName>PartnerOpportunities</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

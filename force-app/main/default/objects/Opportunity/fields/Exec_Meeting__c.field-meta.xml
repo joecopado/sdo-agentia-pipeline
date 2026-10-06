@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exec_Meeting__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>What: Used in Analytics Demo Data Tool. Who: Rodrigo Mercader</description>
+    <inlineHelpText>Check this box to change the results of Einstein Opportunity DIscovery.</inlineHelpText>
+    <label>Executive Meeting</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

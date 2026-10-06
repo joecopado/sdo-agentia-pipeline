@@ -44,6 +44,10 @@
                 <behavior>Readonly</behavior>
                 <field>SDO_Sales_Rating_Indicator__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Renewal_Risk__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
